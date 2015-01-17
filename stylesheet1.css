@@ -1,0 +1,102 @@
+@font-face{
+	font-family: salaryman;
+	src: url(SALARYMA.ttf);
+}
+
+.backgroundMain{
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	
+	background-image: url("Images/TempBG1.jpg");
+				background-size: cover ;
+				background-repeat: no-repeat;
+}
+
+.backgroundContactUs{
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 100%;
+	
+	
+	background-image: url("Images/TempBG1.jpg");
+				background-size: cover ;
+				background-repeat: no-repeat;
+}
+
+.backgroundSoftware{
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: -100%%;
+
+	
+	background-image: url("Images/TempBG1.jpg");
+				background-size: cover ;
+				background-repeat: no-repeat;
+}
+.backgroundApps{
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: -0%;
+	top: 100%;
+
+	
+	background-image: url("Images/TempBG1.jpg");
+				background-size: cover ;
+				background-repeat: no-repeat;
+}
+
+.logo {
+	
+	z-index: 1;
+
+	width: 427px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navigationBar {
+
+	font-family: salaryman;
+	
+	width: 512px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.col-sm-4.navSelect1{
+	
+	font-family: salaryman;
+	width: 170;
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+.col-sm-4.navSelect2{
+	
+	font-family: salaryman;
+	width: 170;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+.col-sm-4.navSelect3{
+	
+	font-family: salaryman;
+	width: 170;
+	float: right;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
